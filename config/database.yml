@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: march4_production
-  username: march4
-  password: <%= ENV['MARCH4_DATABASE_PASSWORD'] %>
+  database: db_4marchpostgresql
+  username: db_4marchpostgresql_user
+  password: zluuD5ro1ObIxrijUfPfHzKNh0tsJMUI
